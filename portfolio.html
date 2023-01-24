@@ -12,12 +12,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
+  <link href="
+https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
+" rel="stylesheet"></link>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!-- Header -->
     <header>
+      <div class="container">
+        <section>
       <nav>
         <a class="logo link" href="./index.html"
           >Web<span class="logo-dark">Studio</span>
@@ -43,11 +47,14 @@
           <a class="nav-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
+      </section>
+      </div>
     </header>
 
     <main>
+      <div class="container">
       <section>
-        <h1 hidden>Portfolio</h1>
+        <h1 >Portfolio</h1>
         <!-- filter -->
 
         <ul class="filter list">
@@ -57,8 +64,10 @@
           <li><button type="button" class="btn">Design</button></li>
           <li><button type="button" class="btn">Marketing</button></li>
         </ul>
+        </div>
         <!-- project -->
-        <ul class="project list">
+        <div class="container">
+          <section >
           <li class="project-img">
             <a class="link" href="">
               <img
@@ -169,8 +178,10 @@
           </li>
         </ul>
       </section>
+      </div>
     </main>
     <!-- footer -->
+    <div class="container">
     <footer class="footer">
       <a class="logo link" href="./index.html"
         >Web<span class="logo-white">Studio</span>
@@ -180,5 +191,6 @@
         marketing & growth solutions.
       </p>
     </footer>
+    </div>
   </body>
 </html>

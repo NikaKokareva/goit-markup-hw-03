@@ -7,6 +7,7 @@
   --footer-text-color: #e7e9fc;
   --active-color: #404bbf;
 }
+
 /* body */
 body {
   background-color: var(--primary-white-color);
@@ -16,6 +17,64 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding right: 15px;
+  margin-left: auto;
+  margin-right:auto;
+  
+
+  outline: 2px solid red;
+
+
+}
+
+/* reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+,p{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  color: currentColor;
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
+img{
+  display: block;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* reset end */
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
 
 .list {
   list-style: none;
@@ -78,6 +137,7 @@ body {
 /* hero */
 .hero {
   background-color: var(--title-text-color);
+
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -167,6 +227,7 @@ body {
 }
 
 .btn {
+ 
   background-color: var(--secondary-white-color);
   color: var(--acent-color);
   cursor: pointer;
